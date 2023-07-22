@@ -1,50 +1,42 @@
-# Assignment Title: E-commerce Development Task
+# OnlineStore
 
-## Assignment Description:
+OnlineStore displays all the products available in the home page. User can click on any of the product name or in the view detail button to see more detailed information about the product. Also, users can search for any particular product by their name by simply providing the name on the product in search input field.
 
-In this assignment, you will create a basic e-commerce application using Next.js / React.js. You'll apply key React/Next concepts and fundamental web development skills. Your task is to develop a multi-page web application named "OnlineStore" that allows users to browse and search for products.
+## How to install
 
-## Instructions:
+1. Clone the project `git clone https://github.com/ShivaAdhikari7/OnlineStore.git`.
 
-1. Fork the provided project repository to your profile and clone it to your machine to begin the project.
-2. Design and implement a web application named "OnlineStore" that allows users to browse and search for products.
-3. The application should have the following pages:
-   - Home Page: Display a list of products with their images, names, and prices. Fetch the list from the provided API endpoint.
-   - Search Page: Include a search bar where users can input the name of a product. On form submission, display a list of search results (products) fetched from the API endpoint.
-   - Product Details Page: When a user clicks on a product from the search results or product list, they should be redirected to a page that displays detailed information about the product, including the product image, name, price, and description.
+2. Install all the dependencies `npm install` or `npm i`.
 
-You can fetch data using the following API endpoint: https://fakestoreapi.com/
+3. Run the project `npm start`.
 
-## Requirements:
+After these steps, the localhost server on port 3000 will start - [localhost](http://localhost:3000).
 
-- Use React.js/Next.js to create the web application.
-- Create a visually appealing UI using any CSS framework (like Bootstrap, Tailwind CSS).
-- Use react query (Tanstack query) for fetching and caching the api data.
-- Implement client-side routing to enable smooth transitions between pages.
-- Write clean, maintainable, and well-documented code.
-- Use Git for version control, committing your code regularly to the forked Git repository in your profile.
-- Deploy the application to a hosting platform (e.g., Vercel, Netlify) and provide a live demo URL in your repo and the submission form.
+## How to use
 
-### Bonus Points:
+After [localhost](http://localhost:3000) is started by the React development server, it will land on the landing page which looks like:
 
-- Making use of TypeScript for type safety.
-- Use of Next.js is preferred over react
-- Use of global state management with Redux toolkit, Recoil or any other state management library.
-- Implement a responsive UI to improve user experience on mobile devices.
-- Handle loading and error states during data fetching.
-- Add a shopping cart functionality where users can add products to the cart and view the cart.
+![OnlineStore Landing Page](/src/img_markdown/landing_page_1.jpg)
 
-## Submission Guidelines:
+![OnlineStore Landing Page](/src/img_markdown/why_choose.jpg)
 
-1. Fork this GitHub repository [Assignment Repo](https://github.com/internsathi/frontend-assignment) to your own GitHub account.
-2. Commit your code regularly and push the changes to your forked repository.
-3. Do not create a pull request; just submit your forked repository.
-4. Provide a DOCS.md file with all the technologies used and how to run the program locally.
-5. Once you have completed the assignment, share the repository URL with us via the [submission form](https://forms.gle/r5ENHoDewE5swP9x7).
+In Landing Page there is a login button from where you can login to the application to view home page.
 
-6. Join this discord server to get an update: [Join Here ](https://discord.gg/5qbGZP7V8g)
+![OnlineStore Login Page](/src/img_markdown/login.jpg)
 
-- Submission Deadline: Task Submission: 2023/07/22 11:30 AM
+After that you will be directed to the home page where you can get the all products from the API.
+![OnlineStore Login Page](/src/img_markdown/home_page.jpg)
 
-Check out the discussion section of this repo to ask any related queries or doubts.
-Note: The assignment is intended to help you grasp basic concepts. Don't hesitate to ask for any clarifications in the discussion section of this repo. Good luck with your assignment!
+Now, you can search for the product by navigating to the search page in the navigation bar. I have searched for shirt:
+![shirt in search input field and result of that](/src/img_markdown/search.jpg)
+
+Also, you can view the details of certain product by clicking on the name or the view detail button in the bottom.
+![Product detail page](/src/img_markdown/product_detail.jpg)
+
+## What have I used
+
+1. As frontend library, I have used [React](https://reactjs.org/).
+2. For getting the product data, I have used [FAKE STORE API](https://fakestoreapi.com/).
+3. For routing, I have used [react-router-dom](https://reactrouter.com/en/main).
+4. For icons, I have used [React Icons](https://react-icons.github.io/react-icons/).
+5. As CSS Pre-processor, I have used [SASS](https://sass-lang.com/).
